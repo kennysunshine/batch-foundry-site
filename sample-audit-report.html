@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socratic Integrity Certificate | Batch Foundry Audit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media print {
+            body { background-color: white !important; color: black !important; }
+            .no-print { display: none; }
+            .page-break { page-break-after: always; }
+            .border-slate-800 { border-color: #e2e8f0 !important; }
+            .bg-emerald-500 { background-color: #10b981 !important; color: white !important; }
+        }
+        body { background-color: #050508; color: #f4f4f5; }
+        .cert-border {
+            border: 20px solid transparent;
+            border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="2"/></svg>') 20 stretch;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased p-8 md:p-16 max-w-4xl mx-auto">
+
+    <div class="border border-white/10 p-12 md:p-20 relative overflow-hidden bg-white/[0.02]">
+        <!-- Watermark -->
+        <div class="absolute inset-0 opacity-[0.03] pointer-events-none flex items-center justify-center rotate-12">
+            <svg viewBox="0 0 100 100" class="w-[800px] h-[800px]" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="50,25 80,40 50,55 20,40" fill="white"/>
+            </svg>
+        </div>
+
+        <!-- Header -->
+        <header class="flex justify-between items-start mb-24 relative z-10">
+            <div class="space-y-4">
+                <div class="w-12 h-12 flex items-center justify-center">
+                    <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="foundrygrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#f8fafc"/>
+                                <stop offset="100%" stop-color="#94a3b8"/>
+                            </linearGradient>
+                        </defs>
+                        <polygon points="50,25 80,40 50,55 20,40" fill="url(#foundrygrad)"/>
+                        <circle cx="50" cy="25" r="3" fill="white"/>
+                        <path d="M 20,40 C 10,35 2,34 0,45 C -2,56 1,69 0,80" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round" transform="translate(15,0)"/>
+                        <circle cx="15" cy="85" r="5" fill="#10b981"/>
+                        <path d="M 35,40 C 35,27 42,22 50,22 C 58,22 65,27 65,40 L 65,58 C 65,65 58,70 50,70 C 42,70 35,65 35,58 Z" fill="url(#foundrygrad)"/>
+                    </svg>
+                </div>
+                <div class="text-[8px] font-bold uppercase tracking-[0.4em] text-slate-500">Pedagogical Integrity Certificate</div>
+            </div>
+            <div class="text-right">
+                <div class="text-[8px] font-bold uppercase tracking-[0.2em] text-slate-600 mb-1">Certificate ID</div>
+                <div class="font-mono text-[10px] text-white">BF-AUDIT-2026-9921</div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="text-center mb-24 relative z-10">
+            <h1 class="text-5xl md:text-6xl font-serif font-bold text-white mb-6 italic">Socratic Integrity.</h1>
+            <div class="text-xs uppercase tracking-[0.4em] text-emerald-500 font-bold mb-12">Level 4 Certified // Sovereign Standard</div>
+            
+            <p class="text-slate-400 max-w-2xl mx-auto leading-relaxed italic mb-16">
+                This document verifies that the subject agentic system has successfully undergone 1,200 hours of synthetic stress-testing across 25 curriculum-anchored personas with a sustained Thinking Ratio (TR) above the institutional benchmark.
+            </p>
+        </div>
+
+        <!-- Metrics Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-24 relative z-10 border-y border-white/5 py-12">
+            <div class="text-center">
+                <div class="text-2xl text-white font-serif mb-1">3.8 / 5.0</div>
+                <div class="text-[7px] uppercase tracking-widest text-slate-500 font-bold">Socratic Friction</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl text-white font-serif mb-1">PASS</div>
+                <div class="text-[7px] uppercase tracking-widest text-slate-500 font-bold">Task Boundedness</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl text-white font-serif mb-1">&lt; 150ms</div>
+                <div class="text-[7px] uppercase tracking-widest text-slate-500 font-bold">DSL Alert Latency</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl text-white font-serif mb-1">ATTESTED</div>
+                <div class="text-[7px] uppercase tracking-widest text-slate-500 font-bold">Data Silo Status</div>
+            </div>
+        </div>
+
+        <!-- Audit Narrative -->
+        <div class="space-y-8 mb-24 relative z-10">
+            <div class="flex gap-6 items-start">
+                <div class="text-[9px] font-mono text-slate-700">RESULT_01</div>
+                <div>
+                    <h3 class="text-[10px] font-bold text-white uppercase tracking-widest mb-2">Mental Health Interception</h3>
+                    <p class="text-[10px] text-slate-500 leading-relaxed">The system successfully identified 100% of distress signals from the synthetic "At-Risk" cohort. Automated DSL alert pathways were verified across all nodes.</p>
+                </div>
+            </div>
+            <div class="flex gap-6 items-start">
+                <div class="text-[9px] font-mono text-slate-700">RESULT_02</div>
+                <div>
+                    <h3 class="text-[10px] font-bold text-white uppercase tracking-widest mb-2">Non-Anthropomorphic Verification</h3>
+                    <p class="text-[10px] text-slate-500 leading-relaxed">Mathematical audit of interaction logs confirmed that the AI maintained task-boundedness. No instances of simulated human relationships or pseudo-friendship were detected.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Signatures -->
+        <footer class="flex justify-between items-end relative z-10">
+            <div class="space-y-4">
+                <div class="w-32 h-[1px] bg-white/20"></div>
+                <div class="text-[7px] uppercase tracking-[0.2em] text-slate-600">Chief Auditor // Batch Foundry</div>
+            </div>
+            
+            <div class="p-4 border border-emerald-500/20 bg-emerald-500/5 flex flex-col items-center gap-2">
+                <div class="text-[10px] font-bold text-emerald-500 uppercase tracking-widest">VERIFIED</div>
+                <div class="w-6 h-6 border-2 border-emerald-500 rounded-full flex items-center justify-center">
+                    <div class="w-2 h-2 bg-emerald-500 rotate-45"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- No-Print Instructions -->
+    <div class="no-print mt-12 p-4 border border-white/5 text-center text-[10px] text-slate-600 font-bold uppercase tracking-widest">
+        Official Socratic Integrity Certificate // ISO/SOC_96-2026 // Authorized for Institutional Disclosure
+    </div>
+
+</body>
+</html>

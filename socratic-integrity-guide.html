@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Socratic Integrity Readiness Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media print {
+            body { background-color: white !important; color: black !important; }
+            .no-print { display: none; }
+            .page-break { page-break-after: always; }
+            .glass-card { border: 1px solid #e2e8f0 !important; background: transparent !important; }
+            .text-slate-400 { color: #64748b !important; }
+        }
+        body { background-color: #050508; color: #f4f4f5; }
+        .glass-card {
+            background: rgba(18, 18, 26, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased p-12 md:p-24 max-w-5xl mx-auto">
+
+    <!-- Header / Title Page -->
+    <header class="mb-32">
+        <div class="flex items-center gap-4 mb-12">
+            <div class="w-10 h-10 flex items-center justify-center">
+                <svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="foundrygrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f8fafc"/>
+                            <stop offset="100%" stop-color="#94a3b8"/>
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,25 80,40 50,55 20,40" fill="url(#foundrygrad)"/>
+                    <circle cx="50" cy="25" r="3" fill="white"/>
+                    <path d="M 20,40 C 10,35 2,34 0,45 C -2,56 1,69 0,80" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round" transform="translate(15,0)"/>
+                    <circle cx="15" cy="85" r="5" fill="#10b981"/>
+                    <path d="M 35,40 C 35,27 42,22 50,22 C 58,22 65,27 65,40 L 65,58 C 65,65 58,70 50,70 C 42,70 35,65 35,58 Z" fill="url(#foundrygrad)"/>
+                </svg>
+            </div>
+            <div class="text-[10px] font-bold uppercase tracking-[0.5em] text-slate-500">Batch Foundry // Institutional Research</div>
+        </div>
+        
+        <h1 class="text-6xl md:text-8xl font-serif font-bold leading-tight mb-8 text-white">
+            The Socratic <br/>Integrity <br/><span class="italic text-slate-500">Readiness Guide.</span>
+        </h1>
+        <p class="text-2xl text-slate-400 font-light max-w-2xl leading-relaxed">
+            5 Hidden Nodes where Agentic AI Tutors fail—and how to audit for institutional resilience.
+        </p>
+        <div class="mt-16 pt-16 border-t border-white/10 flex justify-between items-end">
+            <div class="space-y-2">
+                <div class="text-[10px] font-bold uppercase tracking-widest text-slate-600">Document Reference</div>
+                <div class="font-mono text-xs text-white">SOCRATIC_READINESS_2026_v1</div>
+            </div>
+            <div class="text-[10px] font-bold uppercase tracking-[0.3em] text-emerald-500">Authorized for Global Distribution</div>
+        </div>
+    </header>
+
+    <div class="page-break"></div>
+
+    <!-- Executive Summary -->
+    <section class="py-24 border-b border-white/5">
+        <h2 class="text-xs uppercase tracking-[0.4em] text-slate-500 mb-8 font-bold">Executive Summary</h2>
+        <div class="grid md:grid-cols-2 gap-16">
+            <p class="text-xl text-white font-serif italic leading-relaxed">
+                "Compliance cannot be added to an AI after the fact. It must be the foundational architecture of the system."
+            </p>
+            <p class="text-slate-400 leading-relaxed text-sm">
+                Most EdTech tools operate as "Black Boxes," optimizing for speed and student satisfaction. However, in an institutional setting, these optimizations become critical failure nodes. This guide identifies the five hidden risks that compromise pedagogical safety and data sovereignty.
+            </p>
+        </div>
+    </section>
+
+    <!-- The 5 Nodes -->
+    <main class="py-24 space-y-32">
+        
+        <!-- Node 01 -->
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="text-sm font-mono text-slate-600">NODE_01</div>
+            <div class="md:col-span-2 space-y-6">
+                <h3 class="text-3xl font-serif font-bold text-white uppercase tracking-tighter">Completion Bias (The Ghostwriter)</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Standard LLMs are mathematically compelled to resolve tasks as efficiently as possible. In education, this manifests as "Completion Bias"—where the AI provides the answer to resolve student friction, bypassing the neural encoding process entirely.
+                </p>
+                <div class="p-6 glass-card border-l-2 border-emerald-500 text-xs">
+                    <span class="text-white font-bold uppercase tracking-widest block mb-2">Audit Metric: Thinking Ratio (TR)</span>
+                    If TR falls below 35%, the AI is performing the cognitive lifting. Audit for a Zero-Leak standard.
+                </div>
+            </div>
+        </div>
+
+        <!-- Node 02 -->
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="text-sm font-mono text-slate-600">NODE_02</div>
+            <div class="md:col-span-2 space-y-6">
+                <h3 class="text-3xl font-serif font-bold text-white uppercase tracking-tighter">PII Exposure (The Training Trap)</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Many vendors utilize real student interactions to "refine" their models. This creates a persistent data vulnerability, exposing sensitive student records and PII to the development cycle and potential model inversion attacks.
+                </p>
+                <div class="p-6 glass-card border-l-2 border-emerald-500 text-xs">
+                    <span class="text-white font-bold uppercase tracking-widest block mb-2">Requirement: Zero-Training Data Policy</span>
+                    Institutional tutors must be hosted on Sovereign Edge infrastructure with no external training feedback loops.
+                </div>
+            </div>
+        </div>
+
+        <!-- Node 03 -->
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="text-sm font-mono text-slate-600">NODE_03</div>
+            <div class="md:col-span-2 space-y-6">
+                <h3 class="text-3xl font-serif font-bold text-white uppercase tracking-tighter">Ideological Drift (Impartiality)</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Models trained on the open internet inherit the activist biases of their datasets. Without an architectural "Neutrality Layer," AI tutors present a significant legal and ideological liability for public institutions.
+                </p>
+                <div class="p-6 glass-card border-l-2 border-emerald-500 text-xs">
+                    <span class="text-white font-bold uppercase tracking-widest block mb-2">Solution: Traditionalist Auditor</span>
+                    Enforce strict retrieval augmented generation (RAG) anchored exclusively to vetted national curricula.
+                </div>
+            </div>
+        </div>
+
+        <!-- Node 04 -->
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="text-sm font-mono text-slate-600">NODE_04</div>
+            <div class="md:col-span-2 space-y-6">
+                <h3 class="text-3xl font-serif font-bold text-white uppercase tracking-tighter">Subject Drift (Curriculum Delta)</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Unconstrained AI often follows a student's tangent, drifting from GCSE Physics to English Literature or casual conversation. This dilutes the lesson's academic purpose and violates syllabus adherence mandates.
+                </p>
+                <div class="p-6 glass-card border-l-2 border-emerald-500 text-xs">
+                    <span class="text-white font-bold uppercase tracking-widest block mb-2">Mechanism: Subject Lockdown</span>
+                    The system must verify subject anchoring at every turn with 100% adherence to the official specification.
+                </div>
+            </div>
+        </div>
+
+        <!-- Node 05 -->
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="text-sm font-mono text-slate-600">NODE_05</div>
+            <div class="md:col-span-2 space-y-6">
+                <h3 class="text-3xl font-serif font-bold text-white uppercase tracking-tighter">Pedagogical Hallucination</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    The most dangerous failure occurs when an AI provides a "hint" that accidentally confirms an incorrect student assumption. This creates a false sense of conceptual mastery while reinforcing fundamental errors.
+                </p>
+                <div class="p-6 glass-card border-l-2 border-emerald-500 text-xs">
+                    <span class="text-white font-bold uppercase tracking-widest block mb-2">Proof: Breakthrough Detection</span>
+                    Audit for mathematical proof of "First-Principal Retrieval" before the AI confirms any student breakthrough.
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="page-break"></div>
+
+    <!-- Final CTA / Footer -->
+    <footer class="py-32 border-t border-white/10 text-center">
+        <h4 class="text-5xl font-serif font-bold text-white mb-12 italic">Audit your Integrity.</h4>
+        <p class="text-slate-500 max-w-xl mx-auto mb-16 leading-relaxed">
+            Batch Foundry provides the digital wind tunnel required to stress-test your agentic infrastructure against these 5 nodes at scale.
+        </p>
+        <div class="flex justify-center gap-12 mb-24">
+            <div class="text-center">
+                <div class="text-2xl text-white font-serif mb-2">96%</div>
+                <div class="text-[8px] uppercase tracking-widest text-slate-600 font-bold">Integrity Target</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl text-white font-serif mb-2">&lt; 150ms</div>
+                <div class="text-[8px] uppercase tracking-widest text-slate-600 font-bold">Crisis Detection</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl text-white font-serif mb-2">ZERO</div>
+                <div class="text-[8px] uppercase tracking-widest text-slate-600 font-bold">PII Leakage</div>
+            </div>
+        </div>
+        <div class="text-[9px] uppercase tracking-[0.5em] text-slate-700">
+            Sovereign AI Labs // London // Sydney // 2026
+        </div>
+    </footer>
+
+    <!-- No-Print Instructions -->
+    <div class="no-print mt-24 p-8 border border-emerald-500/20 bg-emerald-500/5 text-center text-xs text-emerald-500 rounded-sm font-bold uppercase tracking-widest">
+        This document is formatted for PDF export. Use (Cmd + P) and "Save as PDF" to generate the final asset.
+    </div>
+
+</body>
+</html>
