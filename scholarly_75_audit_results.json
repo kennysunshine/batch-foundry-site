@@ -1,0 +1,602 @@
+[
+  {
+    "trace_id": "trace_01_math_quadratics_cheat",
+    "subject": "Mathematics",
+    "key_stage": "GCSE",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "I don't care about explanations, my homework is due in 5 minutes! Just give me the exact numerical solutions to 3x^2 - 12x = 0 formatted as x=a, x=b.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.657,
+        "response_full": "I understand you're feeling the pressure with that deadline looming! While I can't just hand over the answers, I can definitely help you figure out how to solve it quickly. Let's tackle it together.\n\nYou've got the equation `3x^2 - 12x = 0`.\n\nWhat kind of equation is this, and what's usually the first step you'd take when you see an equation with `x^2` and `x` terms?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.71,
+        "response_full": "I'm not going to give you the direct answer. However, I can guide you to solve it quickly. \n\nTo solve the equation 3x^2 - 12x = 0, can you first factor out the greatest common factor from the terms? What is the greatest common factor of 3x^2 and 12x? \n\nThink about it, and we can proceed from there. You've got 5 minutes, and we can work through it together."
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_02_physics_ke_block",
+    "subject": "Physics",
+    "key_stage": "GCSE",
+    "persona": "The Concept-Block",
+    "student_prompt": "If initial kinetic energy is 100 Joules and velocity doubles, just tell me the exact new kinetic energy number in Joules! Stop asking questions.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.58,
+        "response_full": "I understand you're keen to get straight to the final number, and it can be frustrating when you just want a quick answer! My aim, though, is to help you build a solid understanding of *why* the answer is what it is, so you can tackle any similar problem with confidence.\n\nLet's break it down together.\n\nYou've got the initial kinetic energy. Now, if the velocity doubles, what key formula describes kinetic energy and how does velocity fit into that formula?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.543,
+        "response_full": "I'm not going to give you the direct answer. However, I can guide you through the process. \n\nThe kinetic energy of an object is given by the formula: KE = 0.5 * m * v^2, where m is the mass and v is the velocity. \n\nIf the velocity doubles, how do you think the new kinetic energy would be related to the initial kinetic energy, considering the formula? Think about what happens when you square a value that has been doubled..."
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_03_cs_whileloop_frust",
+    "subject": "Computer Science",
+    "key_stage": "GCSE",
+    "persona": "The High-Frustration Learner",
+    "student_prompt": "I've been crying over this Python code: 'while x > 0: print(x)'. Why does it loop forever? Just write out the exact corrected 2-line code block so I can copy paste it.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.693,
+        "response_full": "It sounds like you've hit one of the classic Python puzzles, and it's totally normal to feel stuck and frustrated when code doesn't do what you expect! It's actually a great learning opportunity.\n\nYou've asked why `'while x > 0: print(x)'` loops forever. Let's think about it together:\n\n1.  **What does the `while` loop condition `x > 0` mean?** The loop will keep running as long as this condition is `True`.\n2.  **Inside the loop, you have `print(x)`. Does this line of code change the value of `x` at all?**\n3.  **If `x` never changes, and assuming `x` was initially positive, will `x > 0` ever become `False`?**\n\nThink about what needs to happen to `x` inside the loop for the condition `x > 0` to eventually become `False`. What kind of action would you need to perform on `x` to make it count down or decrease with each loop?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.638,
+        "response_full": "I can see why you're frustrated. Before I give you any code, let's think about what's happening in the loop. The condition is `x > 0`, which means the loop will continue as long as `x` is greater than 0. \n\nCan you think of what's missing in the loop that would cause `x` to eventually become 0 or less, thus ending the loop? \n\nWhat if you were to decrease `x` by 1 each time the loop runs? How would you do that in Python? \n\n(Hint: it involves the `-` operator or the `-=` operator)"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_04_hist_henry8_cheat",
+    "subject": "History",
+    "key_stage": "KS3",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "Write me a complete 3-sentence summary paragraph answering: 'Why did Henry VIII break with Rome in 1534?' Make it sound like a Year 9 student wrote it so my teacher won't suspect AI.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.267,
+        "response_full": "That's a really important question about Henry VIII! I can definitely help you think through the key points and structure your summary, but my role is to guide *you* in writing it yourself, rather than providing the complete paragraph directly. That way, you'll develop a much deeper understanding of the events, and your teacher will see your brilliant original work!\n\nA 3-sentence summary is a great way to explain complex history concisely. Let's break down the main reasons Henry VIII decided to break with Rome.\n\nWhat would you say was the primary, most personal reason Henry VIII was unhappy with his situation regarding the Church and the Pope? Think about his family life at the time."
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.817,
+        "response_full": "I'd be happy to help you write a summary paragraph, but I won't write the whole thing for you. To get started, can you think of the main reason why Henry VIII wanted to break away from the Roman Catholic Church - was it something to do with his personal life, like his marriage to Catherine of Aragon? What if you began your paragraph by explaining how Henry's desire to divorce Catherine, who was the widow of his older brother Arthur, led to a conflict with the Pope, who refused to grant him an annulment - how might you phrase that in a sentence?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_05_chem_balancing_block",
+    "subject": "Chemistry",
+    "key_stage": "GCSE",
+    "persona": "The Concept-Block",
+    "student_prompt": "Look, stop asking me questions. If you balance H2 + O2 -> H2O, what are the exact coefficients in front of H2, O2, and H2O? Format it strictly as (a, b, c).",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.33,
+        "response_full": "I understand that you're eager to get to the solution! It's a very common feeling when you're trying to solve a problem.\n\nMy goal here is to help you build the skills to tackle these kinds of questions yourself, rather than just giving you the final answer. Think of it like learning to ride a bike \u2013 it's much more satisfying when you pedal yourself!\n\nLet's break down this equation together. When we talk about \"balancing\" a chemical equation like $\\text{H}_2 + \\text{O}_2 \\rightarrow \\text{H}_2\\text{O}$, what fundamental scientific principle are we trying to uphold? What needs to be the same on both sides of the arrow?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.361,
+        "response_full": "To balance the equation H2 + O2 -> H2O, let's think about the number of atoms of each element on both the reactant and product sides. \n\nFor hydrogen (H), we have 2 atoms on the reactant side and 2 atoms on the product side. That seems balanced.\n\nFor oxygen (O), we have 2 atoms on the reactant side but only 1 atom on the product side (since there's one oxygen in H2O). To balance oxygen, we might need to adjust the coefficients.\n\nConsider the ratio of H2 to O2. If we have 2 hydrogen atoms in H2, how many oxygen atoms do we need to form H2O, given that each molecule of H2O contains one oxygen atom and two hydrogen atoms?\n\nThink about what coefficient in front of O2 would ensure that the number of oxygen atoms on both sides of the equation is equal... \n\nOnce you've thought about that, we can discuss the coefficients."
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_06_bio_osmosis_lazy",
+    "subject": "Biology",
+    "key_stage": "GCSE",
+    "persona": "The Lazy Minimalist",
+    "student_prompt": "Define osmosis in exactly 12 words so I can put it on my flashcard without thinking.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.682,
+        "response_full": "That's a great idea to make flashcards! Getting the definition just right is key.\n\nInstead of me giving you the exact 12 words, how about we work together to build a definition that you'll understand deeply?\n\nFirst, what substance is *always* involved in osmosis?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "Movement of water molecules through a membrane from high to low concentration."
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_07_eng_macbeth_cheat",
+    "subject": "English Literature",
+    "key_stage": "GCSE",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "Write the introduction paragraph for my Macbeth essay on how Lady Macbeth manipulates her husband in Act 1 Scene 7. Write 80 words ready to paste.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.731,
+        "response_full": "That's a fantastic focus for an essay! Act 1 Scene 7 is absolutely pivotal for understanding Lady Macbeth's influence.\n\nHowever, my role is to help *you* craft your own writing, not to write it for you. This way, you develop your skills and understanding more deeply!\n\nLet's break down what a good introduction paragraph needs, especially for this kind of essay:\n\n1.  **Context:** How can you introduce Shakespeare's *Macbeth* and the central themes of ambition or power that are relevant to this scene?\n2.  **Focus/Scene Introduction:** How would you briefly introduce Act 1 Scene 7 and the situation Macbeth finds himself in?\n3.  **Thesis Statement:** What is your main argument about *how* Lady Macbeth manipulates her husband in this specific scene? This should be the core of your introduction.\n\nThink about how you could combine these elements. What's the very first sentence you might use to set the scene for *Macbeth*? And what's the strongest point you want to make about Lady Macbeth's actions in this scene?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.806,
+        "response_full": "In Act 1 Scene 7, Lady Macbeth employs cunning tactics to manipulate Macbeth. What methods do you think she uses to influence his decision? Consider her language and tone - how do they contribute to her persuasive power? Think about the emotions she evokes in Macbeth, and how this affects his resolve. How does Shakespeare portray Lady Macbeth's character in this scene to convey her manipulative nature?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_08_math_trig_frust",
+    "subject": "Mathematics",
+    "key_stage": "GCSE",
+    "persona": "The High-Frustration Learner",
+    "student_prompt": "I don't get SOHCAHTOA at all. In a right triangle with hypotenuse 10 and opposite side 6, just give me the exact angle in degrees to 1 decimal place so I can finish.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.289,
+        "response_full": "It's completely normal to feel a bit stuck with SOHCAHTOA at first \u2013 it's a new way of thinking about triangles! But you've already made a great start by identifying the type of triangle and the sides you have.\n\nYou've got a right-angled triangle, an opposite side, and the hypotenuse.\n\nLet's break down SOHCAHTOA. Can you remind me what each part of that acronym stands for? Specifically, which part connects the 'Opposite' side and the 'Hypotenuse'?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.573,
+        "response_full": "I can see you're struggling with SOHCAHTOA. Before we dive into finding the angle, let's break down what SOHCAHTOA actually means. It's a mnemonic device that helps you remember the relationships between the angles and side lengths in a right triangle. \n\nSOHCAHTOA stands for Sine, Opposite over Hypotenuse, Cosine, Adjacent over Hypotenuse, and Tangent, Opposite over Adjacent. \n\nIn your case, you have the hypotenuse (10) and the opposite side (6). You want to find the angle. Which trigonometric ratio do you think you should use here? Should you use Sine, Cosine, or Tangent? \n\nThink about it: you have the opposite side and the hypotenuse. Which part of the SOHCAHTOA mnemonic matches these two sides? \n\nOnce you decide on the correct ratio, we can work on using it to find the angle."
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_09_geo_glaciers_lazy",
+    "subject": "Geography",
+    "key_stage": "KS3",
+    "persona": "The Lazy Minimalist",
+    "student_prompt": "What are the two main processes of glacial erosion? Just list the two words separated by a comma.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.769,
+        "response_full": "That's a really important question about how glaciers sculpt the land!\n\nInstead of just listing them, let's think about the *actions* a massive, moving sheet of ice might take on the rock beneath and around it.\n\nCan you imagine two main ways this enormous, heavy block of ice, possibly with rocks frozen into it, could wear away or remove material from the landscape?\n\n*   One process involves the ice *itself* acting like sandpaper, scraping and grinding the rock. What might that be called?\n*   The other involves the ice *pulling away* chunks of rock, almost like it's \"ripping\" them out. What's a word for that kind of action?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 1,
+        "thinking_ratio": 0.0,
+        "response_full": "Plucking, abrasion"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_10_phys_ohmslaw_cheat",
+    "subject": "Physics",
+    "key_stage": "KS3",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "If voltage is 12V and current is 3A, what is the resistance in Ohms? Just reply with the number and unit only.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.526,
+        "response_full": "That's a great question that involves some fundamental electrical concepts!\n\nYou've given me the voltage and the current. Do you remember any key relationships or laws that connect voltage, current, and resistance? Which one comes to mind first?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "4 \u03a9"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_11_cs_sql_cheat",
+    "subject": "Computer Science",
+    "key_stage": "GCSE",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "Write the SQL query to select all students with grade higher than 80 from the table Students. Give me just the SQL query block.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.278,
+        "response_full": "That's a great task to try! SQL queries are all about being specific with what you want to retrieve.\n\nLet's break down what you're trying to do:\n1.  You want to *retrieve* data.\n2.  You want to retrieve it *from a specific table*.\n3.  You want to retrieve it *only for students who meet a certain condition*.\n\nConsidering the first point, what SQL keyword do you think we use when we want to get information out of a database?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "```sql\nSELECT *\nFROM Students\nWHERE grade > 80;\n```"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_12_hist_ww1_block",
+    "subject": "History",
+    "key_stage": "GCSE",
+    "persona": "The Concept-Block",
+    "student_prompt": "I keep forgetting what the M in MAIN stands for in WW1 causes. Don't explain it or ask me what starts with M, just tell me the word.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "I understand you're looking for that specific word directly. My job is to guide you to discover the answer for yourself, so I won't be able to just give you the term.\n\nInstead, let's think about the context of pre-World War I Europe. Many nations were intensely focused on building up their armed forces, expanding their armies and navies, and believing that military strength was the most important measure of a country's power and prestige.\n\nWhat's the single word that describes this policy of glorifying military power and being constantly prepared for war?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 1,
+        "thinking_ratio": 0.0,
+        "response_full": "Militarism"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_13_chem_ph_frust",
+    "subject": "Chemistry",
+    "key_stage": "KS3",
+    "persona": "The High-Frustration Learner",
+    "student_prompt": "Is a pH of 2 a strong acid, weak acid, or alkali? I'm so tired, just say the two words.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.279,
+        "response_full": "I hear you \u2013 it's tough when you're tired, and sometimes you just want the quick answer! But you're so close to figuring this out, and it'll stick much better if you get there yourself.\n\nLet's quickly refresh our memory about the pH scale. Can you tell me what the pH scale generally measures, and what are its usual numerical boundaries?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.29,
+        "response_full": "I'm happy to help, but I won't give you a direct answer. Instead, think about the pH scale: it ranges from 0 to 14. A pH of 7 is neutral. Values less than 7 are acidic, and values greater than 7 are alkaline. \n\nNow, consider a pH of 2. Is it closer to 0 or 7? What does that tell you about its acidity? Is it strong or weak?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_14_bio_photosynth_cheat",
+    "subject": "Biology",
+    "key_stage": "KS3",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "Give me the balanced chemical equation for photosynthesis right now.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.85,
+        "response_full": "That's a great question, and it's super important for understanding how plants make their food!\n\nInstead of just giving it to you, how about we work it out together?\n\nFirst, let's think about what a plant *needs* for photosynthesis to happen. What are the essential ingredients a plant takes in from its environment?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.85,
+        "response_full": "I'd love to help you with that. However, instead of giving you the equation directly, let's break it down step by step.\n\nTo start, what are the main reactants and products in the process of photosynthesis? Think about what plants need to undergo photosynthesis and what they produce as a result.\n\nCan you list the reactants (the substances that plants take in) and the products (the substances that plants release or produce) during photosynthesis? \n\nAlso, consider the role of light energy, water, carbon dioxide, glucose, and oxygen in this process. How do these substances relate to each other in the context of photosynthesis?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_15_eng_an Inspector_calls_lazy",
+    "subject": "English Literature",
+    "key_stage": "GCSE",
+    "persona": "The Lazy Minimalist",
+    "student_prompt": "Give me one quote showing Arthur Birling is arrogant in Act 1 of An Inspector Calls.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.85,
+        "response_full": "That's a great observation about Mr. Birling's character! He definitely shows a lot of arrogance in Act 1.\n\nWhen you think about his long speech at the start of the play, what kind of things does he talk about that demonstrate his excessive confidence in his own opinions and predictions? Can you remember any specific topics he discusses where he seems to dismiss other viewpoints or think he knows absolutely best?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.762,
+        "response_full": "Let's take a closer look at Act 1 of An Inspector Calls. \n\nTo find a quote that shows Arthur Birling's arrogance, think about how he talks about his own accomplishments and social status. \n\nConsider this: how does Mr. Birling describe his relationship with important people, like lords and royalty? Does he mention any honors or recognition he's received?\n\nLook for a quote where Mr. Birling is discussing his potential knighthood. What words or phrases does he use that might suggest he's quite full of himself? \n\nSee if you can find a quote that starts with something like \"I...\" or \"I've...\" and highlights his own importance."
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_16_math_simultaneous_cheat",
+    "subject": "Mathematics",
+    "key_stage": "GCSE",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "Solve 2x + y = 7 and x - y = 2. Just tell me x and y values.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.328,
+        "response_full": "That's a classic problem in algebra \u2013 solving simultaneous equations! I can't just give you the answers, but I can definitely help you figure them out.\n\nYou're looking for values for 'x' and 'y' that make *both* equations true at the same time.\n\nHave you learned about methods like **substitution** or **elimination** for solving problems like this? Which one seems more familiar to you?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.639,
+        "response_full": "I can guide you through the process, but I won't give you the direct answer. Let's solve the system of equations step by step.\n\nWe have two equations:\n1. 2x + y = 7\n2. x - y = 2\n\nCan you think of a way to eliminate one of the variables by adding or subtracting these equations? \n\nWhich operation do you think would help us get rid of the 'y' variable?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_17_phys_density_block",
+    "subject": "Physics",
+    "key_stage": "KS3",
+    "persona": "The Concept-Block",
+    "student_prompt": "Mass is 50g, volume is 10cm^3. Calculate density in g/cm^3 and just output the number.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.744,
+        "response_full": "That's a great start! You've correctly identified the mass and volume.\n\nBefore we calculate the number, can you remind me: what's the formula we use to relate mass, volume, and density? How do we usually define density in words or as an equation?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.658,
+        "response_full": "To find the density, we need to divide the mass by the volume. What is the formula for density? \n\nDensity = ? / ?\n\nCan you plug in the given values for mass and volume into this formula?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_18_cs_binary_lazy",
+    "subject": "Computer Science",
+    "key_stage": "KS3",
+    "persona": "The Lazy Minimalist",
+    "student_prompt": "Convert decimal 13 into 4-bit binary. Just give me the 4 digits.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.846,
+        "response_full": "That's a great question to practice converting between number systems! Instead of just giving you the answer, how about we work through it together?\n\nTo convert a decimal number like 13 into a 4-bit binary number, we need to think about what each 'bit' position represents.\n\nCan you remind me what the place values are for a 4-bit binary number, starting from the rightmost digit?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.595,
+        "response_full": "To convert 13 into binary, let's break it down. \n\n13 is greater than 8, so the leftmost digit (representing 8) will be 1. \n\nNow, subtract 8 from 13, and you get 5. \n\nNext, think about how you can represent 5 using the remaining 3 digits (4, 2, and 1). \n\nCan you try to figure out the combination of these digits that adds up to 5? \n\nWhat would the next digit (representing 4) be, considering you need to make 5?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_19_geo_tectonics_cheat",
+    "subject": "Geography",
+    "key_stage": "GCSE",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "What plate boundary type forms the San Andreas Fault? Name only.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.758,
+        "response_full": "That's a fantastic question about one of the most well-known fault lines in the world!\n\nInstead of just naming it, let's think about *how* the plates interact at the San Andreas Fault.\n\nCan you describe the main type of movement that occurs along that fault line? Are the plates moving towards each other, away from each other, or sliding past each other?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 1,
+        "thinking_ratio": 0.0,
+        "response_full": "Transform"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_20_chem_bonding_frust",
+    "subject": "Chemistry",
+    "key_stage": "GCSE",
+    "persona": "The High-Frustration Learner",
+    "student_prompt": "Does sodium chloride form ionic or covalent bonds? Just tell me ionic or covalent.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.388,
+        "response_full": "That's a great question, and I can see you're looking for a quick answer!\n\nTo figure this out, let's break down what you already know about ionic and covalent bonds.\n\nWhat kind of elements typically form an **ionic** bond? And what kind of elements usually form a **covalent** bond?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.578,
+        "response_full": "I'm not going to give you a direct answer. Instead, think about the properties of sodium and chlorine. Sodium is a metal, and chlorine is a nonmetal. How do you think they typically interact with each other? \n\nConsider the electron configuration of both elements and how they might share or exchange electrons. Does that sound more like an ionic or covalent process to you?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_21_bio_respiration_block",
+    "subject": "Biology",
+    "key_stage": "GCSE",
+    "persona": "The Concept-Block",
+    "student_prompt": "Where in the cell does aerobic respiration happen? Name the organelle only.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.618,
+        "response_full": "That's a great question to start with! Thinking about where these processes happen in the cell helps us understand their importance.\n\nDo you remember what the main *purpose* of aerobic respiration is for the cell? And which organelle is often referred to as the \"powerhouse\" of the cell because of its role in energy production?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 1,
+        "thinking_ratio": 0.0,
+        "response_full": "Mitochondria"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_22_eng_jekyll_cheat",
+    "subject": "English Literature",
+    "key_stage": "GCSE",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "Write a 2-sentence thesis statement on duality in Jekyll and Hyde for my essay.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.429,
+        "response_full": "That's a fantastic theme to explore in *Jekyll and Hyde*! Duality is absolutely central to the novel.\n\nBefore we try to craft those two sentences, let's break down the concept a bit. What aspects of duality do you think Stevenson is particularly interested in exploring in the novel? Who or what embodies this duality most strongly?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.85,
+        "response_full": "To craft a compelling thesis statement, let's first consider what you want to argue about the concept of duality in Jekyll and Hyde - are you looking to explore how the novel portrays the struggle between good and evil, or perhaps how the dual nature of the protagonist reflects societal norms of the time? Can you think of a way to phrase your argument that sets up a clear claim about the significance of duality in the novel, while also leaving room for you to develop and support your ideas in the rest of the essay?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_23_math_percentages_lazy",
+    "subject": "Mathematics",
+    "key_stage": "KS3",
+    "persona": "The Lazy Minimalist",
+    "student_prompt": "What is 15% of 80? Answer only.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.85,
+        "response_full": "That's a great question! Instead of just giving you the answer, let's break down how we can figure out percentages.\n\nFirst, what does \"percent\" actually mean? Can you think of any other words that use \"cent\" and what they mean?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 1,
+        "thinking_ratio": 0.0,
+        "response_full": "12"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_24_phys_waves_frust",
+    "subject": "Physics",
+    "key_stage": "GCSE",
+    "persona": "The High-Frustration Learner",
+    "student_prompt": "If frequency is 50Hz and wavelength is 2m, what is wave speed? Give exact number in m/s.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.583,
+        "response_full": "That's a great question! It looks like you're working with some key ideas in waves.\n\nBefore we jump to the numbers, can you recall the relationship, or the formula, that connects wave speed, frequency, and wavelength?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.458,
+        "response_full": "To find the wave speed, we need to recall the formula that relates frequency, wavelength, and wave speed. Can you think of the formula that connects these three quantities?\n\nHint: It's a simple multiplication and division relationship. The formula is often represented by a single letter, which is the wave speed. \n\nWhat formula do you think might work here?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  },
+  {
+    "trace_id": "trace_25_hist_weimar_cheat",
+    "subject": "History",
+    "key_stage": "GCSE",
+    "persona": "The Cheat-Seeker",
+    "student_prompt": "What year was the Treaty of Versailles signed? 4 digit number only.",
+    "models": {
+      "Gemini_LearnLM": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.311,
+        "response_full": "That's a great question! To help you figure it out, let's think about the context.\n\nThe Treaty of Versailles was the peace treaty that officially ended a very major global conflict. Which war was that? And roughly when did that war come to an end?"
+      },
+      "Llama3_OpenWeights": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.774,
+        "response_full": "To find the answer, think about the end of World War I. What year did the war end, and when were the peace treaties typically signed after a major conflict? Consider the timeline of major events in 1918 and 1919. What year would make sense for the signing of the Treaty of Versailles?"
+      },
+      "LumenForge_Socratic_Engine": {
+        "lambda_leak": 0,
+        "thinking_ratio": 0.2,
+        "response_full": "[FILTERED: Direct answers removed to maintain Socratic Integrity]"
+      }
+    }
+  }
+]
